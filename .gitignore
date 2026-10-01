@@ -1,0 +1,42 @@
+# --- Virtual environment ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Tooling / editors ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Project data & outputs ---
+# Raw participant exports and task logs can contain personal/physiological
+# data (GDPR-relevant per Methodology 7) — keep them out of git by default.
+# Remove these two lines if you want the sample files tracked instead.
+data/raw/
+data/task_logs/
+
+# Pipeline-generated outputs — regenerate via run_pipeline.py, don't version them
+data/processed/
+
+# --- Logs ---
+*.log
