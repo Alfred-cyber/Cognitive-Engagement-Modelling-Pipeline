@@ -32,11 +32,11 @@ Thumbs.db
 # Raw participant exports and task logs can contain personal/physiological
 # data (GDPR-relevant per Methodology 7) — keep them out of git by default.
 # Remove these two lines if you want the sample files tracked instead.
-data/raw/
-data/task_logs/
+#data/raw/
+#data/task_logs/
 
 # Pipeline-generated outputs — regenerate via run_pipeline.py, don't version them
-data/processed/
+#data/processed/
 
 # --- Logs ---
 *.log
